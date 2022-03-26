@@ -89,4 +89,52 @@ const GlobalStyles = css`
     color: inherit;
     text-decoration: none;
   }
+  input {
+    cursor: text;
+    padding: 0 15px;
+  }
+  textarea {
+    cursor: text;
+    resize: none;
+  }
+  img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  ::-webkit-input-placeholder {
+    font-size: 1.6rem;
+  }
+  ::-moz-placeholder {
+    font-size: 1.6rem;
+    opacity: 1;
+  }
+  :-moz-placeholder {
+    font-size: 1.6rem;
+    opacity: 1;
+  }
+  :-ms-input-placeholder {
+    font-size: 1.6rem;
+  }
+  :focus::-webkit-input-placeholder {
+    color: transparent;
+  }
+  :focus::-moz-placeholder {
+    color: transparent;
+  }
+  :focus:-moz-placeholder {
+    color: transparent;
+  }
+  :focus::-ms-input-placeholder {
+    color: transparent;
+  }
+  @media screen and (prefers-reduced-motion: reduce) {
+    html {
+      scroll-behavior: auto;
+    }
+  }
 `;
