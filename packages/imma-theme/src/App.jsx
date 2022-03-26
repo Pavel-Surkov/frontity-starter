@@ -1,4 +1,5 @@
 import React from "react";
+import "./assets/styles/normalize.css";
 import styleVariables from "./styleVariables";
 import { connect, Global, css } from "frontity";
 import Switch from "@frontity/components/switch";
